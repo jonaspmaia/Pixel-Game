@@ -339,3 +339,4 @@ ASALocalRun/
 # BeatPulse healthcheck temp database
 healthchecksdb
 /Assets/Pixel Adventure 1
+/Temp/UnityLockfile
