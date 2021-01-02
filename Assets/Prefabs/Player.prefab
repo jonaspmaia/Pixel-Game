@@ -120,10 +120,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3005ac58f46b0c94cbcd56f04a202a9f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Speed: 5
+  Speed: 3
   JumpForce: 10
   isJumping: 0
   doubleJump: 0
+  isBlowing: 0
 --- !u!95 &4781375012648912260
 Animator:
   serializedVersion: 3
@@ -167,7 +168,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.25, y: 0.1}
+  m_Size: {x: 0.16, y: 0.05}
   m_EdgeRadius: 0
 --- !u!58 &4490390211410541524
 CircleCollider2D:
@@ -182,6 +183,6 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.05}
+  m_Offset: {x: 0, y: -0.035}
   serializedVersion: 2
-  m_Radius: 0.12
+  m_Radius: 0.13
